@@ -15,7 +15,7 @@ unstructured data into structured format for ease in processing and generation o
 made a csv file which consisted of folder location of email and email details. Then, we created a csv which separated all email content 
 into various columns based on their tag (X-From, X-To,bcc, cc etc).
 
-Run ### Data_Extraction.ipynb to extract from raw text files.
+Run <b>Data_Extraction.ipynb</b> to extract from raw text files.
 
 ## Data Preprocessing
 Email content have a lot of inconsistencies which include email chains. Email chains create a lot of repetitive data. Removal of these can
