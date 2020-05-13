@@ -37,5 +37,20 @@ The sender's content plays an important role in identifying the writing style/un
 
 Code for generation of the above categories of features are present in the Feature Generation Folder.
 
+## Machine Learning Techniques
+The machine learning techniques that we have used for our implementation are as follows:
+1) SVM
+2) KNN
+3) Random Forest Classifier
+4) Hierarchical Attention Network with stylo features (Proposed Method)
+
+Run the <b>Enron_main.ipynb</b> file for the first three machine learning algorithms.
+Run the <b>HierBiLSTM_stylo.ipynb</b> file for Hierarchical Bi-LSTM algorithm.
+
+## Results
+
+
+
+
 
 
