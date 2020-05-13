@@ -18,8 +18,24 @@ into various columns based on their tag (X-From, X-To,bcc, cc etc).
 Run <b>Data_Extraction.ipynb</b> to extract from raw text files.
 
 ## Data Preprocessing
-Email content have a lot of inconsistencies which include email chains. Email chains create a lot of repetitive data. Removal of these can
-lead to content of the email being empty if the user has only forwarded the email. We first removed the email chains from the content.
-Since our feature extraction is based on content of the email, we also removed all emails that have no content.
+Email content have a lot of inconsistencies which include email chains. Email chains create a lot of repetitive data. Removal of these can lead to content of the email being empty if the user has only forwarded the email. We first removed the email chains from the content. Since our feature extraction is based on content of the email, we also removed all emails that have no content.
 
-Code for data preprocessing is in processing.py
+
+Code for data preprocessing is in <b>processing.py</b>
+
+Training on 150 employees is too complicated and thus we have limited to 10 employees. The method applied to choose these authors is based on who sent the most number of emails. We had approximately 140,000 emails for top 10 senders.
+
+## Feature Generation
+The sender's content plays an important role in identifying the writing style/uniqueness of the content. The most important thing was to generate relevant features from the content. The features we generated belong to the following 7 Categories:
+1) Sentence Based Features
+2) Paragraph Based Features
+3) Character Based Features
+4) Word Based Features
+5) Punctuation Based Features
+6) Syntactic Based Features
+7) Semantic Based Features
+
+Code for generation of the above categories of features are present in the Feature Generation Folder.
+
+
+
