@@ -21,7 +21,7 @@ Run <b>Data_Extraction.ipynb</b> to extract from raw text files.
 Email content have a lot of inconsistencies which include email chains. Email chains create a lot of repetitive data. Removal of these can lead to content of the email being empty if the user has only forwarded the email. We first removed the email chains from the content. Since our feature extraction is based on content of the email, we also removed all emails that have no content.
 
 
-Code for data preprocessing is in <b>processing.py</b>
+Code for data preprocessing is in <b>preprocessing.py</b>
 
 Training on 150 employees is too complicated and thus we have limited to 10 employees. The method applied to choose these authors is based on who sent the most number of emails. We had approximately 140,000 emails for top 10 senders.
 
@@ -35,7 +35,7 @@ The sender's content plays an important role in identifying the writing style/un
 6) Syntactic Based Features
 7) Semantic Based Features
 
-Code for generation of the above categories of features are present in the Feature Generation Folder.
+Code for generation of the above categories of features are present in the <b>Feature Generation Folder.</b>
 
 ## Machine Learning Techniques
 The machine learning techniques that we have used for our implementation are as follows:
@@ -45,7 +45,7 @@ The machine learning techniques that we have used for our implementation are as 
 4) Hierarchical Attention Network with stylo features (Proposed Method)
 
 Run the <b>Enron_main.ipynb</b> file for the first three machine learning algorithms.
-Run the <b>HierBiLSTM_stylo.ipynb</b> file for Hierarchical Bi-LSTM algorithm.
+Run the <b>HAN.ipynb</b> file for Hierarchical Bi-LSTM algorithm.
 
 ## Results
 
