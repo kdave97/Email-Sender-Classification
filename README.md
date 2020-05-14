@@ -49,6 +49,18 @@ Run the <b>HierBiLSTM_stylo.ipynb</b> file for Hierarchical Bi-LSTM algorithm.
 
 ## Results
 
+<b> Precision, Recall and F1 Scores of ML Algorithms </b>
+![alt text](https://github.com/kdave97/Email-Sender-Classification/blob/master/Results/Scores.png)
+
+<b> Acccuracy of different techniques </b>
+![alt text](https://github.com/kdave97/Email-Sender-Classification/blob/master/Results/accuracy.png)
+
+<b> Confusion Matrix for HAN </b>
+![alt text](https://github.com/kdave97/Email-Sender-Classification/blob/master/Results/HAN_Confusion_Matrix.png)
+
+<b> Sample vs Accuracy </b>
+![alt text](https://github.com/kdave97/Email-Sender-Classification/blob/master/Results/sample_accuracy.png)
+
 
 
 
