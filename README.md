@@ -44,7 +44,7 @@ The machine learning techniques that we have used for our implementation are as 
 3) Random Forest Classifier
 4) Hierarchical Attention Network with stylo features (Proposed Method)
 
-Run the <b>Enron_main.ipynb</b> file for the first three machine learning algorithms.
+Run the <b>Enron_main.ipynb</b> file for the first three machine learning algorithms.<br>
 Run the <b>HAN.ipynb</b> file for Hierarchical Bi-LSTM algorithm.
 
 ## Results
