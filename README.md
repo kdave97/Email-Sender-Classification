@@ -9,8 +9,7 @@ different folders.
 Download dataset from https://www.cs.cmu.edu/~enron/
 
 ## Data Extraction
-Data Extraction plays an important part in the processing step as we need to convert the unstructured data into structured format for ease
-in processing and generation of new features. Data Extraction plays an important part in the processing step as we need to convert the 
+Data Extraction plays an important part in the processing step as we need to convert the 
 unstructured data into structured format for ease in processing and generation of new features. We extracted the content of text files and
 made a csv file which consisted of folder location of email and email details. Then, we created a csv which separated all email content 
 into various columns based on their tag (X-From, X-To,bcc, cc etc).
